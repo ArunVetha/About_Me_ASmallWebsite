@@ -1,0 +1,91 @@
+#heading{
+	text-align: center;
+	color: red;
+}
+        
+h1{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color:aqua;
+	background-color: yellow;
+}
+.flex{
+	width: 900px;
+        text-align: center;
+        margin: 10px auto 0;
+        padding: 0.5em;
+        background:orange;
+        border-radius: 2px;
+        box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+#me{
+	position: relative;
+        top: 10px;
+        background-color:black;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+
+}
+body{
+	background: url(mountain-colorful-forest-nature-sunset-scenery-4K-161.jpg); 
+        font-family: 'Josefin Sans', sans-serif;
+}
+#smallinfo{
+	background: blanchedalmond;
+}
+a:link{
+}
+a:hover{
+        color: cyan;
+}
+img{
+        height: 700px;
+        width: 500px;
+        border-width: 3px;
+	border-color: rebeccapurple;
+}
+input{
+	color: red;
+}
+#txtbox{
+	height: 100px;
+}
+        #sub{
+            color: black;
+        }
+        #rts{
+            text-align: center;
+            color: aliceblue;
+        }
+        ul {
+            display: table;
+            margin: 0 auto;
+        }
+@media screen and (min-width: 576px) {
+  .flex-container{
+    flex-direction: row-reverse;
+    flex-flow: column wrap;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .flex-container{
+  flex-direction: row-reverse;
+  flex-flow: column wrap;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px;) {
+  .flex-container{
+  flex-direction: row-reverse;
+  flex-flow: column wrap;
+}
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px;) {
+  .flex-container{
+  flex-direction: row-reverse;
+  flex-flow: column wrap;
+}
